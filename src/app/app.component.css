@@ -1,0 +1,12 @@
+footer{
+    background-color: rgb(51, 53, 53);
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0%;
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-around;
+}

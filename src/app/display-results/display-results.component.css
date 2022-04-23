@@ -1,0 +1,15 @@
+.card{
+    padding: 2%;
+    border: solid 2px #fff;
+    border-radius: 3%;
+}
+.searchResult{
+    width: 30em;
+}
+*{
+    background: #082032;
+    color:white;
+}
+.btn{
+    width: fit-content;
+}
