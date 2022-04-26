@@ -29,19 +29,19 @@ Here is the live demo :https://martin023.github.io/git-search-app/
 
 ## Setup instructions 
 * Fork this repository or: clone directly from bash or terminal (git-bash for windows)
-* To clone this repository to a local repository using bash(Mac) or terminal Linux and git-bash for windows : git clone https//github.com/martin023/git-search/
+* To clone this repository to a local repository using bash(Mac) or terminal Linux and git-bash for windows : [git-clone](git clone https//github.com/martin023/git-search/)
 * Open terminal / command line then navigate to the root folder of the application.
 * Open with your preffered code editor. (atom . /code .)
 * Run the app : ng serve -o /ng serve for localserver 
 * For Deployment or production purposes build the app first : use ng build command.
-* Fel free extend functionality.
-* 
+* Feel free extend features.
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## Contact info
-Reach me through my website at: 
+Reach me through my website at: https://martin023.github.io/portfolio/
 ## License 
 MIT licence 
 Copyright 2022.
