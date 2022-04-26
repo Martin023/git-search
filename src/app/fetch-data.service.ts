@@ -47,7 +47,7 @@ export class FetchDataService {
       catchError(err=>{
         console.log(err);
         return throwError(
-          'Something bad happened; please try again later.');
+          'OOps not found!');
       })
     ).toPromise();
   }
@@ -57,7 +57,7 @@ export class FetchDataService {
       catchError(err=>{
         console.log(err);
         return throwError(
-          'Something bad happened; please try again later.');
+          'OOps ! not found.');
       })
     ).toPromise();
   }
