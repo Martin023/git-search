@@ -18,7 +18,7 @@ Here is the live demo :https://martin023.github.io/git-search-app/
 -   [Licence](#licence)
 
 ## Screenshot of the page
-![pizza affair](https://user-images.githubusercontent.com/36125591/159416166-5edafa82-3782-4b22-9f98-2e9524f398ae.png)
+![git-searchapp](https://user-images.githubusercontent.com/36125591/165394146-fe9c84c6-3c9c-4819-b2b9-b7ca6d6b043f.png)
 
 
 ## Setup/Installation Requirements
