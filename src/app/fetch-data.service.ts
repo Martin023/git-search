@@ -61,3 +61,24 @@ export class FetchDataService {
       })
     ).toPromise();
   }
+  searchRepositories(login: string): Promise<any> {
+    return this.http.get(`${environment.apiUrl}${login}/repos`)
+    .pipe(
+      catchError(err=>{
+        console.log(err);
+        return throwError(
+          'Something bad happened; please try again later.');
+      })
+    ).toPromise();
+}
+searchRepositories(login: string): Promise<any> {
+    return this.http.get(`${environment.apiUrl}${login}/repos`)
+    .pipe(
+      catchError(err=>{
+        console.log(err);
+        return throwError(
+          'Something bad happened; please try again later.');
+      })
+    ).toPromise();
+}
+}
