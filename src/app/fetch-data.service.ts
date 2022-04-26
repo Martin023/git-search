@@ -31,3 +31,23 @@ export class FetchDataService {
       })
     ).toPromise();
   }
+  searchUser(login: string): Promise<any> {
+    return this.http.get(`${environment.apiUrl}${login}`)
+    .pipe(
+      catchError(err=>{
+        console.log(err);
+        return throwError(
+          'Something bad happened; please try again later.');
+      })
+    ).toPromise();
+  }
+  fetchFollowers(followers_url: string): Promise<any> {
+    return this.http.get(`${followers_url}`)
+    .pipe(
+      catchError(err=>{
+        console.log(err);
+        return throwError(
+          'Something bad happened; please try again later.');
+      })
+    ).toPromise();
+  }
