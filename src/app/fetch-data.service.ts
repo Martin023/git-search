@@ -51,3 +51,13 @@ export class FetchDataService {
       })
     ).toPromise();
   }
+  fetchFollowing(following_url: string): Promise<any> {
+    return this.http.get(`${following_url}`)
+    .pipe(
+      catchError(err=>{
+        console.log(err);
+        return throwError(
+          'Something bad happened; please try again later.');
+      })
+    ).toPromise();
+  }
