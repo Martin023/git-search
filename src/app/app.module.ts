@@ -7,11 +7,13 @@ import{ HttpClientModule } from '@angular/common/http'
 import { FormsModule } from '@angular/forms';
 import { FetchDataService } from './fetch-data.service';
 import { UserComponent } from './user/user.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent
+    UserComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
