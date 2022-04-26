@@ -1,13 +1,14 @@
+*{
+    background: #082032;
+    color:white;
+}
 #navbar{
-    background-color: #081829;
-    padding: 10px;
-    margin-bottom:2%;
-    
-    
+    background-color: #082032;
+       
 }
  #navbar ul li a:hover {
-    background-color: white;
-    color: crimson;
+    
+    color: rgba(0,255,0,0.75);
     box-shadow: 0 0 10px black;
  }
  
@@ -16,7 +17,9 @@
      
  }
  #navbar a:hover{
-    background-color: white;
-    color: crimson;
-    box-shadow: 0 0 10px black;
+    
+    color: rgba(0,255,0,0.75);
+ }  
+ footer{
+     margin-bottom: 0px;
  }

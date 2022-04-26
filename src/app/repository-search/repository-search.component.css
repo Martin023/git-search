@@ -1,0 +1,10 @@
+.all-items{
+    background: #082032;
+    color:white;
+    min-height: 100vh;
+    
+}
+#form{
+    width:50%;
+    padding-left:5%
+}

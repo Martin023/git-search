@@ -1,0 +1,69 @@
+*{
+    background: #082032;
+    color:white;
+}
+.all-items{
+    height: 92vh;
+}
+
+span.appearance{
+    color:rgba(0,255,0,0.75);
+}
+h4{
+    padding: 5%;
+    white-space:nowrap;
+    overflow:hidden;
+    /* border-right: solid 3px rgba(0,255,0,0.75); */
+    animation :animated-text 4s steps(29,end) 1s 1 normal both;
+    /* animated-cursor 600ms steps(29,end) infinite; */
+    
+}
+h6{
+   text-align: center;
+   color:rgba(0,255,0,0.75);
+}
+/* text animation */
+
+@keyframes animated-text{
+    0% {
+        width:0;
+    }
+    to {
+        width:470px;
+    }
+}
+/* @keyframes animated-cursor{
+    from {
+        border-right-color: rgba(0,255,0,0.75);
+    }
+    to{
+        border-right-color: transparent;
+    }
+} */
+
+h4 span{
+    color:rgba(0,255,0,0.75)
+}
+
+#question{
+    color:rgba(0,255,0,0.75);
+    font-size: large;
+    display: flex;
+    justify-content: center;
+}
+
+#indent{
+    padding-left: 50px;
+}
+
+#indentLink{
+  padding-left: 50px;
+}
+
+#indentLink a:hover{
+    color: rgba(0,255,0,0.75);
+}
+.landingPageText p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
