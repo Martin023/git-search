@@ -1,27 +1,47 @@
 # GitSearchApp
+git-search is a simple angular applcation for searching github users and repositories. User profiles are populated by use of their username
+and also you can use a repository name to also view.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
-## Development server
+#### Demo
+Here is the live demo :https://martin023.github.io/git-search-app/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents
 
-## Code scaffolding
+-   [Screen-shot](screenshot-of-the-page)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+-   [Installation instructions](#setup-instructions)
+-   [Behaviour driven development](#behaviour-driven-development)
+-   [Known bugs](#known-bugs)
+-   [To do's](#to-dos)
+-   [Authors Info](#support-and-contact-details)
+-   [Licence](#licence)
 
-## Build
+## Screenshot of the page
+![pizza affair](https://user-images.githubusercontent.com/36125591/159416166-5edafa82-3782-4b22-9f98-2e9524f398ae.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Setup/Installation Requirements
+* Any code editor that has support typescript and javascrpt .(Visual studio code or atom editors are recommended).
+* Angular CLI.
+* Watchman :optional.
+* npm package installer.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
+## Setup instructions 
+* Fork this repository or: clone directly from bash or terminal (git-bash for windows)
+* To clone this repository to a local repository using bash(Mac) or terminal Linux and git-bash for windows : git clone https//github.com/martin023/git-search/
+* Open terminal / command line then navigate to the root folder of the application.
+* Open with your preffered code editor. (atom . /code .)
+* Run the app : ng serve -o /ng serve for localserver 
+* For Deployment or production purposes build the app first : use ng build command.
+* Fel free extend functionality.
+* 
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Contact info
+Reach me through my website at: 
+## License 
+MIT licence 
+Copyright 2022.
