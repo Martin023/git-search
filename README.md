@@ -1,4 +1,4 @@
-# GitSearchApp
+# GitSearch
 git-search is a simple angular applcation for searching github users and repositories. User profiles are populated by use of their username
 and also you can use a repository name to also view.
 
